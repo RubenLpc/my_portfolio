@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <title>Ruben Lupancu — CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <style>
+    :root {
+      --ink: #0a0a0e;
+      --muted: #4b4b58;
+      --dim: #888896;
+      --line: #d4d4dc;
+      --accent: #6b21a8;
+      --bg: #fafaf7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      padding: 0;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    .sheet {
+      max-width: 820px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 56px 64px;
+      box-shadow: 0 1px 0 var(--line), 0 30px 80px -30px rgba(0,0,0,0.18);
+      border-radius: 6px;
+    }
+    .toolbar {
+      max-width: 820px;
+      margin: 24px auto 0;
+      padding: 0 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .toolbar button, .toolbar a {
+      font-family: inherit;
+      background: var(--ink);
+      color: #fff;
+      border: 0;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 13px;
+      cursor: pointer;
+      letter-spacing: 0.02em;
+    }
+    .toolbar a.ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+
+    .head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--ink);
+      padding-bottom: 16px;
+      margin-bottom: 28px;
+    }
+    .head-name {
+      font-family: 'Instrument Serif', serif;
+      font-size: 42px;
+      line-height: 1;
+      letter-spacing: -0.01em;
+    }
+    .head-role {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: 0.04em;
+    }
+    .head-contact {
+      text-align: right;
+      font-size: 12px;
+      line-height: 1.7;
+      color: var(--muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .head-contact a { color: inherit; text-decoration: none; }
+
+    .row {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 36px;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .row:last-child { border-bottom: 0; }
+    .row-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      padding-top: 3px;
+    }
+    .row-body p { margin-bottom: 10px; color: var(--muted); font-size: 14px; }
+    .row-body p:last-child { margin-bottom: 0; }
+
+    .item {
+      margin-bottom: 18px;
+    }
+    .item:last-child { margin-bottom: 0; }
+    .item-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 2px;
+    }
+    .item-title {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .item-period {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      color: var(--dim);
+    }
+    .item-org { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+    .item-body { font-size: 13px; color: var(--muted); }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      padding: 4px 9px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      color: var(--ink);
+    }
+
+    .proj-link {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--accent);
+      text-decoration: none;
+      margin-left: 6px;
+    }
+    .proj-live::before {
+      content: '●';
+      color: #16a34a;
+      margin-right: 6px;
+      font-size: 9px;
+      vertical-align: 2px;
+    }
+
+    .foot {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--dim);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      display: flex; justify-content: space-between;
+    }
+
+    @media print {
+      .toolbar { display: none; }
+      body { background: #fff; padding: 0; }
+      .sheet { box-shadow: none; margin: 0; padding: 24mm 22mm; max-width: none; border-radius: 0; }
+      @page { size: A4; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a href="index.html" class="ghost">← Portfolio</a>
+    <button onclick="window.print()">Save as PDF</button>
+  </div>
+
+  <article class="sheet">
+    <header class="head">
+      <div>
+        <div class="head-name">Ruben Lupancu</div>
+        <div class="head-role">Computer Science Student · Web Developer · Suceava, RO</div>
+      </div>
+      <div class="head-contact">
+        lupancuruben2@gmail.com<br />
+        +40 753 851 305<br />
+        github.com/RubenLpc<br />
+        linkedin · Ruben Lupancu
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="row-label">Profile</div>
+      <div class="row-body">
+        <p>21 de ani, din Suceava, student la Computer Science (USV · FIESC). Web developer cu accent pe React, Node.js și MongoDB. Două ediții Assist Software Tech Challenge — odată ca backend, odată ca team lead. Îmi susțin licența în 2026 cu BucovinaStay, o platformă de turism cu semantic search și chatbot.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row-label">Education</div>
+      <div class="row-body">
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">B.Sc. Computer Science</div>
+            <div class="item-period">2022 — 2026</div>
+          </div>
+          <div class="item-org">USV Suceava · Faculty of Electrical Engineering and Computer Science (FIESC)</div>
+          <div class="item-body">Licența 2026 — BucovinaStay (semantic search + chatbot pentru turismul din Bucovina).</div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Bacalaureat · Mate-Informatică intensiv</div>
+            <div class="item-period">2018 — 2022</div>
+          </div>
+          <div class="item-org">Col. Nat. „Eudoxiu Hurmuzachi”, Rădăuți</div>
+          <div class="item-body">Matematică 10 · Informatică peste 9. Limbaj principal: C++.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row-label">Experience</div>
+      <div class="row-body">
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Team Lead & Backend — IntelligentForms</div>
+            <div class="item-period">2024</div>
+          </div>
+          <div class="item-org">Assist Software Tech Challenge · Mentored</div>
+          <div class="item-body">Am condus o echipă într-un proiect mentorat de Assist Software și am implementat backendul în Node.js + Express.</div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Backend Developer — Team Finder</div>
+            <div class="item-period">2023</div>
+          </div>
+          <div class="item-org">Assist Software Tech Challenge · Mentored</div>
+          <div class="item-body">Prima experiență de echipă mentorată; am construit backendul pentru o aplicație de căutare a oamenilor potriviți pentru proiectele unei firme.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row-label">Projects</div>
+      <div class="row-body">
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">BucovinaStay <a class="proj-link proj-live" href="https://bucovinastay-frontend1.onrender.com/" target="_blank">live ↗</a></div>
+            <div class="item-period">2026 · Thesis</div>
+          </div>
+          <div class="item-body">Platformă turistică modernă cu semantic search și chatbot. React · Node.js · Express · MongoDB Atlas · Cloudinary · Brevo.</div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Ciocolaterie <a class="proj-link proj-live" href="https://cioco-front.onrender.com/" target="_blank">live ↗</a></div>
+            <div class="item-period">2025</div>
+          </div>
+          <div class="item-body">E-commerce complet pentru o ciocolaterie. Catalog, coș, checkout, admin. Same stack.</div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Renoberto <a class="proj-link proj-live" href="https://renoberto-front.onrender.com/#/" target="_blank">live ↗</a></div>
+            <div class="item-period">2025 · Client</div>
+          </div>
+          <div class="item-body">Website pentru o firmă de renovări din zona Bruxelles, Belgia.</div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Spălătorie Pro <a class="proj-link proj-live" href="https://spalatorie-front.onrender.com/" target="_blank">live ↗</a></div>
+            <div class="item-period">2025 · Client</div>
+          </div>
+          <div class="item-body">Site pentru o spălătorie profesională de textile.</div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Notes (React Native)</div>
+            <div class="item-period">2024 · Mobile</div>
+          </div>
+          <div class="item-body">Aplicație mobilă de notițe cu sync, server Node + Express + MongoDB.</div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">InstrumenteMuzicale (C#)</div>
+            <div class="item-period">2023 · Academic</div>
+          </div>
+          <div class="item-body">Aplicație de gestiune pentru un magazin de instrumente — produse, stocuri, comenzi.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row-label">Skills</div>
+      <div class="row-body">
+        <div style="display: grid; grid-template-columns: 1fr; gap: 14px;">
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--dim); margin-bottom: 6px; letter-spacing: 0.1em;">FRONTEND</div>
+            <div class="chips">
+              <span class="chip">React</span><span class="chip">React Native</span><span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span>
+            </div>
+          </div>
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--dim); margin-bottom: 6px; letter-spacing: 0.1em;">BACKEND & DATA</div>
+            <div class="chips">
+              <span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">MongoDB Atlas</span><span class="chip">REST</span><span class="chip">Postman</span>
+            </div>
+          </div>
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--dim); margin-bottom: 6px; letter-spacing: 0.1em;">LANGUAGES</div>
+            <div class="chips">
+              <span class="chip">C++</span><span class="chip">C</span><span class="chip">C#</span><span class="chip">Java</span><span class="chip">Python</span><span class="chip">JavaScript</span>
+            </div>
+          </div>
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--dim); margin-bottom: 6px; letter-spacing: 0.1em;">SERVICES & TOOLS</div>
+            <div class="chips">
+              <span class="chip">Cloudinary</span><span class="chip">Brevo</span><span class="chip">Render</span><span class="chip">Git</span><span class="chip">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row-label">Certificates</div>
+      <div class="row-body">
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">The Complete 2024 Web Development Bootcamp</div>
+            <div class="item-period">Oct 2024 · 61.5h</div>
+          </div>
+          <div class="item-org">Udemy · Dr. Angela Yu</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="row-label">Languages</div>
+      <div class="row-body">
+        <div class="chips">
+          <span class="chip">Română — nativă</span>
+          <span class="chip">English — fluent</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <span>Ruben Lupancu · CV · 2026</span>
+      <span>Suceava, România</span>
+    </footer>
+  </article>
+</body>
+</html>
