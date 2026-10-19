@@ -389,7 +389,7 @@ const PORTFOLIO = {
       { label: "Phone",    value: "+40 753 851 305",          href: "tel:+40753851305" },
       { label: "WhatsApp", value: "+40 753 851 305",          href: "https://wa.me/40753851305" },
       { label: "GitHub",   value: "RubenLpc",                 href: "https://github.com/RubenLpc" },
-      { label: "LinkedIn", value: "Ruben Lupancu",            href: "https://www.linkedin.com/in/ruben-lupancu/" }
+      { label: "LinkedIn", value: "Ruben Lupancu",            href: "https://www.linkedin.com/in/ruben-lupancu-4abb6432b" }
     ],
     cta: { ro: "Trimite-mi un email", en: "Send me an email" }
   },

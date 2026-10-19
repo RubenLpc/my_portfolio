@@ -309,7 +309,7 @@ function Contact({ lang }) {
             {t(c.cta, lang)} <span className="btn-arrow">→</span>
           </a>
           <div style={{ marginTop: 20 }}>
-            <a href="cv.html" target="_blank" className="btn btn-ghost reveal">
+            <a href="Ruben-Lupancu-CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-ghost reveal">
               {t(C.nav.download, lang)} <span className="btn-arrow">↗</span>
             </a>
           </div>
