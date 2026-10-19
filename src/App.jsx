@@ -11,7 +11,7 @@ import {
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "theme": "deep-space",
-  "lang": "ro",
+  "lang": "en",
   "showStats": true,
   "denseHero": false
 }/*EDITMODE-END*/;
@@ -148,7 +148,7 @@ function About({ lang }) {
           <img className="about-photo" src="assets/ruben.jpg" alt="Ruben Lupancu" />
           <div className="about-photo-overlay"></div>
           <div className="about-photo-stamp">
-            <span>RL · 21</span>
+            <span>RL · 22</span>
             <span>SV / RO</span>
           </div>
         </div>
@@ -218,7 +218,7 @@ function ProjectCard({ proj, lang }) {
         </a>
       ) : (
         <span className="project-cta is-disabled">
-          {lang === 'ro' ? 'Indisponibil live · contactează-mă pentru detalii' : 'Not live · contact me for details'}
+          {lang === 'ro' ? 'Fără demo live · întreabă-mă de el' : 'No live demo · ask me about it'}
         </span>
       )}
     </article>

@@ -2,78 +2,80 @@
 const PORTFOLIO = {
   meta: {
     name: "Ruben Lupancu",
-    role: { ro: "Computer Science Student · Web Developer", en: "Computer Science Student · Web Developer" },
+    role: { ro: "Software Engineer · Master Securitate Cibernetică", en: "Software Engineer · Cybersecurity MSc" },
     location: { ro: "Suceava, România", en: "Suceava, Romania" },
     coords: "47.6635° N, 26.2732° E",
-    available: { ro: "Disponibil pentru proiecte", en: "Available for projects" }
+    available: { ro: "Deschis la roluri remote", en: "Open to remote roles" }
   },
 
   nav: {
     about:      { ro: "Despre",       en: "About" },
     work:       { ro: "Proiecte",     en: "Work" },
     skills:     { ro: "Tehnologii",   en: "Stack" },
-    journey:    { ro: "Traseu",       en: "Journey" },
-    voices:     { ro: "Voci",         en: "Voices" },
+    journey:    { ro: "Parcurs",      en: "Journey" },
+    voices:     { ro: "Recomandări",  en: "Recommendations" },
     contact:    { ro: "Contact",      en: "Contact" },
     download:   { ro: "Descarcă CV",  en: "Download CV" }
   },
 
   hero: {
-    eyebrow: { ro: "TRANSMISIUNE DESCHISĂ // 2026", en: "BROADCAST OPEN // 2026" },
-    title_a: { ro: "Construiesc aplicații web",            en: "I build web apps" },
-    title_b: { ro: "din colțul de est al galaxiei.",       en: "from the eastern arm of the galaxy." },
+    eyebrow: { ro: "SUCEAVA, RO // DESCHIS LA REMOTE", en: "SUCEAVA, RO // OPEN TO REMOTE WORK" },
+    title_a: { ro: "Construiesc aplicații web.",           en: "I build web apps." },
+    title_b: { ro: "Acum învăț și cum să le sparg.",       en: "Now I'm learning how to break them." },
     sub: {
-      ro: "Student la Computer Science (USV), 21 de ani, din Bucovina — nord-estul României. Trăiesc între React, Node și o coloană sonoră lo-fi. Construiesc lucruri care funcționează — și care arată bine în timp ce o fac.",
-      en: "Computer Science student at USV, 21, from Bucovina — north-east Romania. I live between React, Node and a lo-fi soundtrack. I build things that work — and look good while doing it."
+      ro: "Sunt Ruben, am 22 de ani și sunt din Suceava. Vara asta am terminat Computer Science la USV, iar din octombrie fac masterul de Securitate Cibernetică. Din 2025 lucrez freelance, mai ales cu React și Node, pentru firme mici din România, Belgia și Austria.",
+      en: "I'm Ruben, 22, from Suceava in north-east Romania. I finished my Computer Science degree at USV this summer and started a Master's in Cybersecurity in October. Since 2025 I've been freelancing, mostly with React and Node, for small businesses in Romania, Belgium and Austria."
     },
-    cta_primary:   { ro: "Vezi proiectele",     en: "See the work" },
-    cta_secondary: { ro: "Hai să vorbim",       en: "Get in touch" },
-    scroll_hint:   { ro: "Scroll pentru a explora", en: "Scroll to explore" },
+    cta_primary:   { ro: "Vezi proiectele",     en: "See my work" },
+    cta_secondary: { ro: "Scrie-mi",            en: "Get in touch" },
+    scroll_hint:   { ro: "Scroll în jos",       en: "Scroll down" },
     stats: [
-      { value: "15+", label: { ro: "proiecte personale",  en: "personal projects" } },
-      { value: "5",   label: { ro: "aplicații live",      en: "apps live now" } },
-      { value: "4",   label: { ro: "ani de cod intensiv", en: "years coding hard" } },
-      { value: "2",   label: { ro: "concursuri Assist",   en: "Assist hackathons" } }
+      { value: "15+", label: { ro: "proiecte construite",       en: "projects built" } },
+      { value: "5",   label: { ro: "aplicații live",            en: "apps live now" } },
+      { value: "2",   label: { ro: "ediții Assist Tech Challenge", en: "Assist Tech Challenges" } },
+      { value: "1st", label: { ro: "loc, contribuție tehnică 2024", en: "place, technical contribution 2024" } }
     ]
   },
 
   about: {
     kicker: { ro: "DESPRE", en: "ABOUT" },
     headline: {
-      ro: "Un dezvoltator născut printre munți, format printre linii de cod.",
-      en: "A developer born among mountains, shaped between lines of code."
+      ro: "Pe scurt, despre mine.",
+      en: "The short version."
     },
     paras: {
       ro: [
-        "Am 21 de ani și sunt din Suceava — un oraș liniștit în nordul României, aproape de Bucovina. Pasiunile mele orbitează în jurul a două lucruri: muzica și dezvoltarea web. Una îmi dă ritmul, cealaltă îmi dă structura.",
-        "Am început să codez serios la Colegiul Național „Eudoxiu Hurmuzachi\" din Rădăuți, profil mate-info intensiv. Acolo am pus bazele cu C++ și am construit primele mele site-uri în HTML, CSS și JavaScript. Bacul l-am dat cu 10 la matematică și peste 9 la informatică.",
-        "Adevăratul salt a venit în timpul facultății, prin două ediții ale concursului Assist Software Tech Challenge — încă de pe vremea când AI-ul nu rezolva totul pentru tine. Acolo am învățat ce înseamnă să lucrezi în echipă, mentorat real, deadline-uri reale și un backend care chiar trebuie să țină.",
-        "Acum studiez la USV Suceava, FIESC, Computer Science. Îmi susțin licența anul acesta cu BucovinaStay — o platformă cu semantic search și chatbot pentru turiștii care vin în Bucovina."
+        "Am 22 de ani și sunt din zona Sucevei. Când nu scriu cod, de obicei ascult muzică.",
+        "Am început să programez serios în liceu, la Colegiul Național „Eudoxiu Hurmuzachi\" din Rădăuți, la mate-info intensiv. Acolo am făcut mult C++ și primele site-uri în HTML, CSS și JavaScript. La bac am luat 10 la mate și peste 9 la info.",
+        "Cel mai mult am învățat din Assist Software Tech Challenge, la care am participat de două ori. În 2023 am scris backendul pentru Intelligent Forms, o aplicație care completează formulare publice pe baza unei poze cu buletinul. În 2024 am condus o echipă de patru oameni pe Team Finder și am luat locul 1 la contribuția tehnică individuală.",
+        "Am stat și trei veri în Cooperstown, New York, cu Work & Travel, la Otesaga Resort. Nu are legătură cu programarea, dar acolo mi-am pus engleza la punct și am învățat să nu intru în panică atunci când totul se întâmplă deodată.",
+        "Am terminat licența în iulie 2026, cu BucovinaStay, o platformă de cazări din Bucovina cu căutare semantică și un chatbot. Acum sunt la master, iau proiecte freelance și caut un rol de junior remote, pe full-stack sau AppSec."
       ],
       en: [
-        "I'm 21 and I'm from Suceava — a quiet town in northern Romania, close to Bucovina. My passions orbit around two things: music and web development. One gives me rhythm, the other gives me structure.",
-        "I started coding seriously at Eudoxiu Hurmuzachi National College in Rădăuți, intensive math-CS track. That's where I laid the foundations with C++ and built my first sites in HTML, CSS, and JavaScript. I finished my Baccalaureate with a 10 in math and above 9 in CS.",
-        "The real leap came during university, through two editions of the Assist Software Tech Challenge — back when AI wouldn't just solve everything for you. That's where I learned what real teamwork, real mentoring, real deadlines, and a backend that actually has to hold up feel like.",
-        "Right now I'm studying at USV Suceava, FIESC, Computer Science. I'm defending my thesis this year with BucovinaStay — a platform with semantic search and a chatbot for tourists coming to Bucovina."
+        "I'm 22 and I'm from the Suceava area, in the north-east of Romania. When I'm not writing code, I'm usually listening to music.",
+        "I started programming seriously in high school, at Eudoxiu Hurmuzachi National College in Rădăuți, on the intensive math and CS track. That's where I wrote a lot of C++ and built my first sites in HTML, CSS and JavaScript. I got a 10 in math and above 9 in CS at the Baccalaureate.",
+        "I learned the most from the Assist Software Tech Challenge, which I did twice. In 2023 I wrote the backend for Intelligent Forms, an app that fills in public forms from a photo of your ID card. In 2024 I led a team of four on Team Finder and won first place for individual technical contribution.",
+        "I also spent three summers in Cooperstown, New York, working at the Otesaga Resort on a J-1 visa. Nothing to do with code, but it's where my English got good and where I learned not to panic when everything happens at once.",
+        "I graduated in July 2026 with BucovinaStay as my thesis, a booking platform for Bucovina with semantic search and a chatbot. Now I'm doing my Master's, taking freelance work, and looking for a remote junior role in full-stack or AppSec."
       ]
     },
     quick: [
-      { label: { ro: "Bază",       en: "Base" },        value: { ro: "Suceava, RO",            en: "Suceava, RO" } },
-      { label: { ro: "Educație",   en: "Education" },   value: { ro: "USV · FIESC · CS",        en: "USV · FIESC · CS" } },
-      { label: { ro: "Limbi",      en: "Languages" },   value: { ro: "Română, Engleză",         en: "Romanian, English" } },
-      { label: { ro: "Off-screen", en: "Off-screen" },  value: { ro: "Muzică · Cărți · Drumeții", en: "Music · Books · Hiking" } }
+      { label: { ro: "Bază",       en: "Base" },        value: { ro: "Suceava, RO",                 en: "Suceava, RO" } },
+      { label: { ro: "Educație",   en: "Education" },   value: { ro: "USV · Master Securitate",     en: "USV · MSc Cybersecurity" } },
+      { label: { ro: "Limbi",      en: "Languages" },   value: { ro: "Română, Engleză",             en: "Romanian, English" } },
+      { label: { ro: "Off-screen", en: "Off-screen" },  value: { ro: "Muzică · Cărți · Drumeții",   en: "Music · Books · Hiking" } }
     ]
   },
 
   projects: {
     kicker: { ro: "PROIECTE", en: "WORK" },
     headline: {
-      ro: "Stații din rețea.",
-      en: "Stations across the network."
+      ro: "Ce am construit.",
+      en: "Things I've built."
     },
     subhead: {
-      ro: "O selecție din portofoliu — nu toate, dar cele mai reprezentative. Cele marcate LIVE sunt accesibile chiar acum.",
-      en: "A selection from the portfolio — not all, but the most representative ones. Those marked LIVE are reachable right now."
+      ro: "Nu sunt toate, dar sunt cele de care sunt cel mai mulțumit. Cele marcate LIVE le poți deschide acum.",
+      en: "Not everything, just the ones I'm happiest with. The ones marked LIVE you can open right now."
     },
     items: [
       {
@@ -86,10 +88,24 @@ const PORTFOLIO = {
         glyph: "★",
         hue: 270,
         summary: {
-          ro: "Platformă modernă cu semantic search și chatbot pentru explorarea cazărilor din Bucovina. Construită pentru valul anual de turiști.",
-          en: "Modern platform with semantic search and a chatbot for exploring stays in Bucovina. Built for the annual tourist wave."
+          ro: "Platformă de cazări pentru Bucovina. Poți căuta în cuvintele tale („o cabană liniștită lângă mănăstiri”) și există un chatbot care răspunde la întrebări despre zonă.",
+          en: "A booking platform for Bucovina. You can search in plain words (\"a quiet cabin near the monasteries\") and there's a chatbot that answers questions about the area."
         },
         stack: ["React", "Node.js", "Express", "MongoDB Atlas", "Cloudinary", "Brevo", "Postman"]
+      },
+      {
+        id: "fidelia",
+        name: "Fidelia Immo",
+        year: "2025",
+        tag: { ro: "Client, Austria", en: "Client, Austria" },
+        live: "https://fidelia.immo/",
+        glyph: "▲",
+        hue: 35,
+        summary: {
+          ro: "Site imobiliar pentru o firmă din Austria. Listări de proprietăți, filtre de căutare și un panou de administrare din care clientul își pune singur anunțurile.",
+          en: "Real estate site for a company in Austria. Property listings, search filters and an admin panel where the client manages their own listings."
+        },
+        stack: ["React", "Node.js", "Express", "MongoDB Atlas", "Cloudinary"]
       },
       {
         id: "ciocolaterie",
@@ -100,8 +116,8 @@ const PORTFOLIO = {
         glyph: "◆",
         hue: 18,
         summary: {
-          ro: "Magazin online complet pentru o ciocolaterie — catalog, coș, checkout, panou admin.",
-          en: "Complete online store for a chocolate shop — catalog, cart, checkout, admin panel."
+          ro: "Magazin online pentru o ciocolaterie: catalog, coș, checkout și panou de admin pentru produse și comenzi.",
+          en: "Online store for a chocolate shop: catalog, cart, checkout and an admin panel for products and orders."
         },
         stack: ["React", "Node.js", "Express", "MongoDB Atlas", "Cloudinary", "Brevo"]
       },
@@ -109,13 +125,13 @@ const PORTFOLIO = {
         id: "renoberto",
         name: "Renoberto",
         year: "2025",
-        tag: { ro: "Client — Belgia", en: "Client — Belgium" },
+        tag: { ro: "Client, Belgia", en: "Client, Belgium" },
         live: "https://renoberto-front.onrender.com/#/",
         glyph: "◐",
         hue: 200,
         summary: {
-          ro: "Website pentru o firmă de renovări din zona Bruxelles. Prezentare, formular de contact, galerie de proiecte.",
-          en: "Website for a renovation company in the Brussels area. Showcase, contact form, project gallery."
+          ro: "Site pentru o firmă de renovări de lângă Bruxelles, cu galerie de lucrări și formular de contact.",
+          en: "Website for a renovation company near Brussels, with a project gallery and a contact form."
         },
         stack: ["React", "Node.js", "Express", "MongoDB Atlas", "Cloudinary"]
       },
@@ -124,68 +140,40 @@ const PORTFOLIO = {
         name: "Spălătorie Pro",
         year: "2025",
         tag: { ro: "Client local", en: "Local client" },
-        live: "https://spalatorie-front.onrender.com/",
+        live: "https://spalatorie.onrender.com/",
         glyph: "◇",
         hue: 175,
         summary: {
-          ro: "Site mic și curat pentru o spălătorie profesională de textile. Servicii, prețuri, contact.",
-          en: "Small clean site for a professional textile laundry. Services, pricing, contact."
+          ro: "Site simplu pentru o spălătorie profesională de textile: servicii, prețuri, contact.",
+          en: "A simple site for a professional textile laundry: services, prices, contact."
         },
         stack: ["React", "Node.js", "Express", "MongoDB Atlas"]
       },
       {
-        id: "realestate-austria",
-        name: "RealEstate App",
-        year: "2025",
-        tag: { ro: "Client — Austria", en: "Client — Austria" },
-        live: "https://INLOCUIESTE-CU-URL-UL-TAU/",
-        glyph: "▲",
-        hue: 35,
-        summary: {
-          ro: "Aplicație imobiliară pentru o firmă din Austria — listări de proprietăți, filtre avansate de căutare și panou de administrare. Funcțională și în producție.",
-          en: "Real estate app for an Austrian company — property listings, advanced search filters and an admin dashboard. Live and running in production."
-        },
-        stack: ["React", "Node.js", "Express", "MongoDB Atlas", "Cloudinary"]
-      },
-      {
-        id: "my-portfolio-v1",
-        name: "My Portfolio v1",
-        year: "2023",
-        tag: { ro: "Primul meu CV-site", en: "My first CV site" },
-        live: "https://my-personal-site.tiiny.site",
-        glyph: "✷",
-        hue: 50,
-        summary: {
-          ro: "Primul meu site tip CV — construit cu cunoștințe minime de HTML, CSS, JS. Îl păstrez ca punct de referință.",
-          en: "My first CV-style site — built with minimal HTML, CSS, JS knowledge. I keep it as a reference point."
-        },
-        stack: ["HTML", "CSS", "JavaScript"]
-      },
-      {
-        id: "intelligentforms",
-        name: "IntelligentForms",
+        id: "team-finder",
+        name: "Team Finder",
         year: "2024",
         tag: { ro: "Assist Tech Challenge · Team Lead", en: "Assist Tech Challenge · Team Lead" },
         glyph: "◈",
-        hue: 295,
+        hue: 220,
         summary: {
-          ro: "Aplicație construită în echipă sub mentorat Assist Software. Am fost team lead și am condus și implementarea backendului.",
-          en: "App built in a team under Assist Software mentorship. I was team lead and also drove the backend implementation."
+          ro: "Aplicație care găsește oamenii potriviți dintr-o firmă pentru un proiect nou. Am condus echipa (frontend, backend, QA, design) și am scris cod pe ambele părți. Locul 1 la contribuția tehnică individuală.",
+          en: "An app that finds the right people inside a company for a new project. I led the team (frontend, backend, QA, design) and wrote code on both sides. First place for individual technical contribution."
         },
-        stack: ["Node.js", "Express", "MongoDB", "Team Lead"]
+        stack: ["React", "Node.js", "Express", "MongoDB Atlas", "Team Lead"]
       },
       {
-        id: "team-finder",
-        name: "Team Finder",
+        id: "intelligentforms",
+        name: "Intelligent Forms",
         year: "2023",
         tag: { ro: "Assist Tech Challenge · Backend", en: "Assist Tech Challenge · Backend" },
         glyph: "◇",
-        hue: 220,
+        hue: 295,
         summary: {
-          ro: "Prima aplicație serioasă în echipă, mentorată de Assist. Aplicația caută în firmă lucrători potriviți pentru proiectele noi. Eu am reprezentat backendul.",
-          en: "My first serious team app, mentored by Assist. It finds the right people inside a company for new projects. I owned the backend."
+          ro: "Completează automat formulare publice după o poză cu buletinul. Eu am făcut backendul: API-ul REST și baza de date.",
+          en: "Fills in public forms automatically from a photo of your ID card. I built the backend: the REST API and the database."
         },
-        stack: ["Node.js", "Express", "REST"]
+        stack: ["Node.js", "Express", "PostgreSQL", "REST"]
       },
       {
         id: "notes",
@@ -195,8 +183,8 @@ const PORTFOLIO = {
         glyph: "◑",
         hue: 140,
         summary: {
-          ro: "Aplicație mobilă tip notițe, construită în React Native, cu server Node + Express și MongoDB. Sync și autentificare.",
-          en: "Mobile notes app built in React Native, with a Node + Express server and MongoDB. Sync and auth."
+          ro: "Aplicație de notițe pe mobil, făcută în React Native, cu cont și sincronizare printr-un server Node.",
+          en: "A notes app for mobile, built in React Native, with accounts and sync through a Node server."
         },
         stack: ["React Native", "Node.js", "Express", "MongoDB"]
       },
@@ -204,14 +192,28 @@ const PORTFOLIO = {
         id: "instrumentemuzicale",
         name: "InstrumenteMuzicale",
         year: "2023",
-        tag: { ro: "Proiect academic · C#", en: "Academic project · C#" },
+        tag: { ro: "Proiect de facultate · C#", en: "University project · C#" },
         glyph: "♪",
         hue: 330,
         summary: {
-          ro: "Aplicație de gestiune pentru un magazin de instrumente muzicale: stocuri, produse, comenzi. Construită în primul an de facultate, când am învățat C#.",
-          en: "Inventory and management app for a musical instruments shop. Built in my first university year, when I learned C#."
+          ro: "Aplicație de gestiune pentru un magazin de instrumente muzicale: produse, stocuri, comenzi. Am făcut-o în primul an, când învățam C#.",
+          en: "Management app for a music instrument shop: products, stock, orders. I made it in first year while learning C#."
         },
         stack: ["C#", ".NET", "WinForms"]
+      },
+      {
+        id: "my-portfolio-v1",
+        name: "My Portfolio v1",
+        year: "2023",
+        tag: { ro: "Primul meu site", en: "My first site" },
+        live: "https://my-personal-site.tiiny.site",
+        glyph: "✷",
+        hue: 50,
+        summary: {
+          ro: "Primul meu site de prezentare, făcut doar cu HTML, CSS și puțin JavaScript. Îl țin aici ca să se vadă de unde am plecat.",
+          en: "My first personal site, made with just HTML, CSS and a bit of JavaScript. I keep it here to show where I started."
+        },
+        stack: ["HTML", "CSS", "JavaScript"]
       }
     ]
   },
@@ -219,8 +221,8 @@ const PORTFOLIO = {
   skills: {
     kicker: { ro: "TEHNOLOGII", en: "STACK" },
     headline: {
-      ro: "Instrumentele cu care îmi construiesc lumea.",
-      en: "The tools I build my world with."
+      ro: "Cu ce lucrez.",
+      en: "What I work with."
     },
     groups: [
       {
@@ -228,35 +230,75 @@ const PORTFOLIO = {
         items: ["React", "React Native", "JavaScript", "HTML", "CSS"]
       },
       {
-        label: { ro: "Backend & Data", en: "Backend & Data" },
-        items: ["Node.js", "Express", "MongoDB Atlas", "REST APIs", "Postman"]
+        label: { ro: "Backend & Date", en: "Backend & Data" },
+        items: ["Node.js", "Express", "MongoDB Atlas", "PostgreSQL", "REST APIs", "Postman"]
       },
       {
         label: { ro: "Limbaje", en: "Languages" },
-        items: ["JavaScript", "C++", "C", "C#", "Java", "Python"]
+        items: ["JavaScript", "C++", "C", "C#", "Java", "Python", "SQL"]
       },
       {
         label: { ro: "Servicii & Tools", en: "Services & Tools" },
-        items: ["Cloudinary", "Brevo", "Render", "Git", "GitHub"]
+        items: ["Git", "GitHub", "Render", "Cloudinary", "Brevo"]
       }
     ]
   },
 
   experience: {
-    kicker: { ro: "TRASEU", en: "JOURNEY" },
+    kicker: { ro: "PARCURS", en: "JOURNEY" },
     headline: {
-      ro: "Stații de-a lungul orbitei.",
-      en: "Stations along the orbit."
+      ro: "Cum am ajuns aici.",
+      en: "How I got here."
     },
     items: [
       {
-        period: "2022 — prezent",
-        period_en: "2022 — present",
-        title: { ro: "Computer Science — Licență",                  en: "Computer Science — Bachelor's" },
+        period: "oct. 2026 — prezent",
+        period_en: "Oct 2026 — present",
+        title: { ro: "Master, Securitate Cibernetică",               en: "MSc Cybersecurity" },
+        org:   { ro: "Universitatea Ștefan cel Mare, Suceava",       en: "Ștefan cel Mare University, Suceava" },
+        body:  {
+          ro: "Abia am început. Securitatea rețelelor, criptografie, protecția datelor.",
+          en: "Just started. Network security, cryptography, data protection."
+        }
+      },
+      {
+        period: "2025 — prezent",
+        period_en: "2025 — present",
+        title: { ro: "Full-Stack Developer, freelance",              en: "Freelance Full-Stack Developer" },
+        org:   { ro: "Independent",                                  en: "Self-employed" },
+        body:  {
+          ro: "Site-uri și aplicații web pentru firme mici din România, Belgia și Austria. Mă ocup de tot, de la prima discuție cu clientul până la deploy.",
+          en: "Websites and web apps for small businesses in Romania, Belgium and Austria. I handle everything from the first call with the client to deployment."
+        }
+      },
+      {
+        period: "2022 — 2026",
+        period_en: "2022 — 2026",
+        title: { ro: "Licență, Computer Science",                    en: "BSc Computer Science" },
         org:   { ro: "USV Suceava · FIESC",                          en: "USV Suceava · FIESC" },
         body:  {
-          ro: "Studii de licență. Îmi susțin lucrarea anul acesta cu BucovinaStay.",
-          en: "Undergraduate studies. Defending my thesis this year with BucovinaStay."
+          ro: "Terminată în iulie 2026. Lucrarea de licență: BucovinaStay.",
+          en: "Graduated July 2026. Thesis project: BucovinaStay."
+        }
+      },
+      {
+        period: "verile 2024, 2025, 2026",
+        period_en: "Summers 2024, 2025, 2026",
+        title: { ro: "Recreation Attendant (Work & Travel)",          en: "Recreation Attendant (J-1)" },
+        org:   { ro: "Otesaga Resort Hotel · Cooperstown, NY",       en: "Otesaga Resort Hotel · Cooperstown, NY" },
+        body:  {
+          ro: "Trei sezoane la rând, reangajat în fiecare an. Lucru zilnic cu clienți din SUA și cu o echipă internațională.",
+          en: "Three seasons in a row, rehired every year. Working every day with American guests and an international team."
+        }
+      },
+      {
+        period: "2024",
+        period_en: "2024",
+        title: { ro: "Team Finder, Team Lead",                       en: "Team Finder, Team Lead" },
+        org:   { ro: "Assist Software Tech Challenge",               en: "Assist Software Tech Challenge" },
+        body:  {
+          ro: "Am condus o echipă de patru și am lucrat atât pe frontend (React), cât și pe backend (Node, Express, MongoDB). Locul 1 la contribuția tehnică individuală.",
+          en: "Led a team of four and worked on both the frontend (React) and the backend (Node, Express, MongoDB). First place for individual technical contribution."
         }
       },
       {
@@ -265,62 +307,42 @@ const PORTFOLIO = {
         title: { ro: "Certificat Web Development",                   en: "Web Development Certificate" },
         org:   { ro: "Udemy · Dr. Angela Yu · 61,5 ore",             en: "Udemy · Dr. Angela Yu · 61.5 hours" },
         body:  {
-          ro: "Complete 2024 Web Development Bootcamp — finalizat octombrie 2024.",
-          en: "Complete 2024 Web Development Bootcamp — completed October 2024."
-        }
-      },
-      {
-        period: "2024",
-        period_en: "2024",
-        title: { ro: "IntelligentForms — Team Lead",                 en: "IntelligentForms — Team Lead" },
-        org:   { ro: "Assist Software Tech Challenge",               en: "Assist Software Tech Challenge" },
-        body:  {
-          ro: "Lider de echipă și backend developer într-un proiect mentorat de Assist Software.",
-          en: "Team lead and backend developer on a project mentored by Assist Software."
+          ro: "The Complete Web Development Bootcamp, terminat în octombrie 2024.",
+          en: "The Complete Web Development Bootcamp, finished in October 2024."
         }
       },
       {
         period: "2023",
         period_en: "2023",
-        title: { ro: "Team Finder — Backend",                        en: "Team Finder — Backend" },
+        title: { ro: "Intelligent Forms, Backend",                   en: "Intelligent Forms, Backend" },
         org:   { ro: "Assist Software Tech Challenge",               en: "Assist Software Tech Challenge" },
         body:  {
-          ro: "Prima experiență de echipă mentorată. Am construit backendul cu Node.js și Express.",
-          en: "First mentored team experience. Built the backend with Node.js and Express."
+          ro: "Prima experiență într-o echipă cu mentori din industrie. Am făcut backendul cu Node.js, Express și PostgreSQL.",
+          en: "My first time on a team with industry mentors. I built the backend with Node.js, Express and PostgreSQL."
         }
       },
       {
         period: "2018 — 2022",
         period_en: "2018 — 2022",
-        title: { ro: "Mate-Info Intensiv — Liceu",                   en: "Math-CS Intensive — High School" },
-        org:   { ro: "Col. Nat. „Eudoxiu Hurmuzachi\" · Rădăuți",      en: "Eudoxiu Hurmuzachi National College · Rădăuți" },
+        title: { ro: "Liceu, mate-info intensiv",                    en: "High school, math & CS track" },
+        org:   { ro: "Col. Nat. „Eudoxiu Hurmuzachi\" · Rădăuți",    en: "Eudoxiu Hurmuzachi National College · Rădăuți" },
         body:  {
-          ro: "Bacalaureat: 10 la matematică, peste 9 la informatică. C++ ca limbă maternă în acea perioadă.",
-          en: "Baccalaureate: 10 in math, over 9 in CS. C++ as a mother tongue back then."
-        }
-      },
-      {
-        period: "2014 — 2018",
-        period_en: "2014 — 2018",
-        title: { ro: "Școala Gimnazială",                            en: "Middle School" },
-        org:   { ro: "Satu Mare",                                    en: "Satu Mare" },
-        body:  {
-          ro: "Unde a început totul.",
-          en: "Where it all started."
+          ro: "Bac: 10 la matematică, peste 9 la informatică. Pe atunci scriam aproape numai C++.",
+          en: "Baccalaureate: 10 in math, above 9 in CS. Back then I wrote almost nothing but C++."
         }
       }
     ]
   },
 
   testimonials: {
-    kicker: { ro: "VOCI", en: "VOICES" },
+    kicker: { ro: "RECOMANDĂRI", en: "RECOMMENDATIONS" },
     headline: {
       ro: "Ce spun cei cu care am lucrat.",
       en: "What people I've worked with say."
     },
     note: {
-      ro: "Spațiul de mai jos așteaptă cuvintele tale. Dacă am construit ceva împreună și vrei să apari aici, scrie-mi.",
-      en: "The space below is waiting for your words. If we've built something together and you'd like to appear here, drop me a line."
+      ro: "Încă nu am adăugat nimic aici. Dacă am lucrat împreună și vrei să scrii două rânduri, dă-mi un mesaj.",
+      en: "Nothing here yet. If we've worked together and you'd like to write a couple of lines, send me a message."
     },
     items: [
       /*
@@ -355,12 +377,12 @@ const PORTFOLIO = {
   contact: {
     kicker: { ro: "CONTACT", en: "CONTACT" },
     headline: {
-      ro: "Hai să construim ceva.",
-      en: "Let's build something."
+      ro: "Hai să vorbim.",
+      en: "Let's talk."
     },
     sub: {
-      ro: "Sunt deschis la colaborări, freelance și proiecte interesante. Răspund de obicei în câteva ore.",
-      en: "Open to collaborations, freelance and interesting projects. I usually reply within hours."
+      ro: "Caut un rol de junior remote (full-stack sau AppSec, merge și contract/B2B) și iau în continuare proiecte freelance. Pot lucra pe fus orar american. De obicei răspund în aceeași zi.",
+      en: "I'm looking for a remote junior role (full-stack or AppSec, contract/B2B is fine) and I still take freelance projects. I can work US hours. I usually reply the same day."
     },
     items: [
       { label: "Email",    value: "lupancuruben2@gmail.com", href: "mailto:lupancuruben2@gmail.com" },
@@ -369,13 +391,13 @@ const PORTFOLIO = {
       { label: "GitHub",   value: "RubenLpc",                 href: "https://github.com/RubenLpc" },
       { label: "LinkedIn", value: "Ruben Lupancu",            href: "https://www.linkedin.com/in/ruben-lupancu/" }
     ],
-    cta: { ro: "Scrie-mi un email", en: "Send me an email" }
+    cta: { ro: "Trimite-mi un email", en: "Send me an email" }
   },
 
   footer: {
     line: {
-      ro: "Construit de mână în Suceava · transmis din colțul de est al galaxiei",
-      en: "Hand-built in Suceava · broadcast from the eastern arm of the galaxy"
+      ro: "Făcut de mână în Suceava",
+      en: "Hand-built in Suceava"
     }
   }
 };
